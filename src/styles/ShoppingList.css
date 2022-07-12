@@ -1,9 +1,13 @@
+.lmj-shopping-list {
+	width: 100%;
+}
+
 .lmj-plant-list {
 	list-style-type: none;
 	padding: 32px;
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 800px;
+	justify-content: center;
 }
 
 /* .lmj-plant-item {
@@ -19,7 +23,7 @@
 	position: relative;
 } */
 
-.lmj-sales {
+/* .lmj-sales {
 	position: absolute;
 	right: 0px;
 	top: 10px;
@@ -27,4 +31,4 @@
 	color: white;
 	padding: 5px 10px;
 	background-color: #31b572;
-}
+} */
