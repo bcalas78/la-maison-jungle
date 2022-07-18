@@ -16,7 +16,8 @@ export const plantList = [
 		isBestSale: true,
 		light: 2,
 		water: 3,
-    cover: monstera
+    cover: monstera,
+    price: 15
 	},
 	{
 		name: 'ficus lyrata',
@@ -24,7 +25,8 @@ export const plantList = [
 		id: '2ab',
 		light: 3,
 		water: 1,
-    cover: lyrata
+    cover: lyrata,
+    price: 16
 	},
 	{
 		name: 'pothos argenté',
@@ -33,15 +35,17 @@ export const plantList = [
 		light: 1,
 		water: 2,
     isSpecialOffer: true,
-    cover: pothos
+    cover: pothos,
+    price: 9
 	},
 	{
-		name: 'yucca',
+		name: 'calathea',
 		category: 'classique',
 		id: '4kk',
 		light: 3,
 		water: 1,
-    cover: calathea
+    cover: calathea,
+    price: 20
 	},
 	{
 		name: 'olivier',
@@ -49,7 +53,8 @@ export const plantList = [
 		id: '5pl',
 		light: 3,
 		water: 1,
-    cover: olivier
+    cover: olivier,
+    price: 25
 	},
   {
 		name: 'cactus',
@@ -57,16 +62,17 @@ export const plantList = [
 		id: '8fp',
 		light: 2,
 		water: 1,
-		cover: cactus
+		cover: cactus,
+    price: 6
 	},
-	{
-		name: 'géranium',
-		category: 'extérieur',
-		id: '6uo',
-		light: 2,
-		water: 2,
-    cover: monstera
-	},
+	// {
+	// 	name: 'géranium',
+	// 	category: 'extérieur',
+	// 	id: '6uo',
+	// 	light: 2,
+	// 	water: 2,
+  //   cover: monstera
+	// },
 	{
 		name: 'basilique',
 		category: 'extérieur',
@@ -75,24 +81,26 @@ export const plantList = [
 		light: 2,
 		water: 3,
     isSpecialOffer: true,
-    cover: basil
+    cover: basil,
+    price: 5
 	},
-	{
-		name: 'aloe',
-		category: 'plante grasse',
-		id: '8fp',
-		light: 2,
-		water: 1,
-    isSpecialOffer: true,
-    cover: monstera
-	},
+	// {
+	// 	name: 'aloe',
+	// 	category: 'plante grasse',
+	// 	id: '8fp',
+	// 	light: 2,
+	// 	water: 1,
+  //   isSpecialOffer: true,
+  //   cover: monstera
+	// },
 	{
 		name: 'succulente',
 		category: 'plante grasse',
 		id: '9vn',
 		light: 2,
 		water: 1,
-    cover: succulent
+    cover: succulent,
+    price: 8
 	},
   {
 		name: 'menthe',
@@ -100,6 +108,7 @@ export const plantList = [
 		id: '6uo',
 		light: 2,
 		water: 2,
-		cover: mint
+		cover: mint,
+    price: 4
 	}
 ]
